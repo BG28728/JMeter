@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  bat 'C:/Users/galit/apache-jmeter-5.4/apache-jmeter-5.4/bin/jmeter -n -t C:/Users/galit/apache-jmeter-5.4/apache-jmeter-5.4/bin/Maven_PlugIn.jmx Jusers=10 -l test.jtl'
+}
